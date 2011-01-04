@@ -1,0 +1,6 @@
+﻿name: Castle.Facilities.AutoTx
+depends: openwrap anchored content
+depends: castle.core = 2.5
+depends: castle.windsor = 2.5
+depends: castle.services.transaction = 2.5
+build: msbuild; profile=net35; project=src\Castle.Facilities.AutoTx\Castle.Facilities.AutoTx-vs2010.csproj
