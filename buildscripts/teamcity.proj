@@ -32,7 +32,7 @@
     <PropertyGroup>
       <PublishArguments>
         <Name>$(OpenWrap-PackageName)</Name>
-        <RemoteRepository>file://galaxy.caffeine-it.net/packages/</RemoteRepository>
+        <Remote>file://galaxy.caffeine-it.net/packages/</Remote>
       </PublishArguments>
     </PropertyGroup>
 
